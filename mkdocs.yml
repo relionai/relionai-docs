@@ -1,0 +1,63 @@
+site_name: Relion.ai
+site_description: ML Reliability as a service
+site_url: https://relion.ai/
+theme:
+  name: material
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/lightbulb
+      name: Switch to light mode
+  - scheme: slate
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+plugins:
+- search
+nav:
+- Relion.ai: index.md
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- mdx_include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+- pymdownx.tabbed:
+    alternate_style: true
+extra:
+  analytics:
+    provider: google
+    property: UA-133413-1
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/mo-messidi
+  - icon: fontawesome/brands/dev
+    link: https://dev.to
+  - icon: fontawesome/brands/medium
+    link: https://medium.com/
+  - icon: fontawesome/solid/globe
+    link: https://relion.ai
+extra_css:
+- css/termynal.css
+- css/custom.css
+extra_javascript:
+- js/termynal.js
+- js/custom.js

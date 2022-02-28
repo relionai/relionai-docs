@@ -381,13 +381,13 @@ Train Precision: 0.98  Test Precision: 0.98  Synthetic Precision: 0.57
 ============ MODEL PERFORMANCE TESTS =================
 Description : Variation of model performance across datasets
 Train Data vs. Test Data :
+🟢 0.0% AUC difference between datasets
 🟢 0.0% accuracy difference between datasets
-🟢 0.0% accuracy difference between datasets
-🟢 0.0% accuracy difference between datasets
+🟢 0.0% precision difference between datasets
 Train Data vs. Synthetic Data :
-🟢 0.0% accuracy difference between datasets
+🟢 0.0% AUC difference between datasets
 🟠 41.0% accuracy difference between datasets
-🟠 41.0% accuracy difference between datasets
+🟠 41.0% precision difference between datasets
 ============= BIAS-VARIANCE DECOMPOSITION TESTS ===============
 Description : Overfit or underfit indication
 Train Data vs. Test Data :
